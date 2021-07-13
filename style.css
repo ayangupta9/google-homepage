@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  /* background-color: #333; */
 }
 
 .container {
@@ -16,14 +15,9 @@ body {
 
 .navbar {
   height: 50px;
-  /* border-bottom: solid 1px grey; */
-  /* background-image: linear-gradient(rgb(218, 218, 218), white); */
-  /* width: 200px; */
-  /* background-color: aqua; */
 }
 .centerContent {
   flex: 1;
-  /* background-color: rgb(255, 208, 208); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +29,6 @@ body {
   justify-content: center;
   width: 100%;
   align-items: center;
-  /* background-color: aquamarine; */
 }
 
 .inputWrapper {
@@ -54,7 +47,6 @@ body {
 }
 
 .inputContainer input:focus {
-  box-shadow: 0px 0px 7px rgb(204, 204, 204);
   border: none;
   outline: none;
 }
@@ -106,11 +98,6 @@ p {
   font-family: arial, sans-serif;
 }
 
-/* .inputWrapper input:active {
-  border: none;
-  outline: none;
-} */
-
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -156,6 +143,7 @@ p {
   color: #222;
   border-radius: 3px;
   border: solid 1px transparent;
+  cursor: pointer;
 }
 
 .buttonWrapper #feelingLuckyButton {
@@ -163,6 +151,7 @@ p {
   color: #3c4043;
   border: solid 1px transparent;
   margin-left: 0.5rem;
+  cursor: pointer;
   font-size: 14px;
   font-family: arial, sans-serif;
   color: #222;
@@ -200,8 +189,8 @@ p {
 .more {
   border-radius: 50%;
   padding: 5px;
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
 }
 
 .more:hover {
@@ -224,9 +213,49 @@ p {
   padding: 2rem;
 }
 
+.locationFooter {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: arial, sans-serif;
+  background-color: #f2f2f2;
+  border-bottom: solid 1px #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
 .footer {
-  height: 150px;
-  /* border-top: solid 1px grey; */
-  /* background-image: linear-gradient(white, rgb(218, 218, 218)); */
-  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.leftLinks {
+  display: flex;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.rightLinks {
+  display: flex;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.footer a {
+  padding: 15px;
+  color: #70757a;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
